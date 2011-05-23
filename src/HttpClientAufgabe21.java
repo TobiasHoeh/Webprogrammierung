@@ -20,10 +20,6 @@ public class HttpClientAufgabe21 {
 		BufferedInputStream networkIn = null;
 		Socket s;
 		
-		if(1 == 0) {
-			
-		}
-
 		try {
 			url = new URL(adresse);
 			s = new Socket(url.getHost(), httpport);
