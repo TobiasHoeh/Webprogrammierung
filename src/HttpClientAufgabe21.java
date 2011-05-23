@@ -16,7 +16,6 @@ public class HttpClientAufgabe21 {
 		if (args.length > 0) {
 			adresse = args[0];
 		}
-
 		PrintWriter networkOut = null;
 		BufferedInputStream networkIn = null;
 		Socket s;
