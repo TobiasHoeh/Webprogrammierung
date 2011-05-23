@@ -19,6 +19,8 @@ public class HttpClientAufgabe21 {
 		PrintWriter networkOut = null;
 		BufferedInputStream networkIn = null;
 		Socket s;
+		
+		
 
 		try {
 			url = new URL(adresse);
