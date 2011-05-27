@@ -19,7 +19,8 @@ public class HttpClientAufgabe21 {
 		PrintWriter networkOut = null;
 		BufferedInputStream networkIn = null;
 		Socket s;
-
+		// This ist a Test
+		
 		try {
 			url = new URL(adresse);
 			s = new Socket(url.getHost(), httpport);
